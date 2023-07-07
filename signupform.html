@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet" type="text/css" />
+    <link href="./signupform.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Sign Up</h1>
+        </div>
+        <div class="content">
+            <form action="#">
+                <div class="user-info">
+                    <div class="input-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" name="name" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="input-group">
+                        <label for="usern">Username</label>
+                        <input type="text" name="usern" id="usern" placeholder="Enter your username">
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" placeholder="Enter your password">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="number" name="phone" id="phone" placeholder="Enter your number">
+                    </div>
+                    <div class="input-group">
+                        <label for="confirmpass">Confirm Password</label>
+                        <input type="password" name="confirmpass" id="confirmpass" placeholder="Enter your password">
+                    </div>
+                </div>
+                <div class="gender-info">
+                    <div class="gender-title">Gender</div>
+                    <div class="gender-list">
+                        <div>
+                            <input type="radio" name="gender" id="male"> <label for="male">Male</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="gender" id="female"> <label for="female">Female</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="gender" id="other"> <label for="other">Other</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn">
+                    <button type="submit">Sign Up</button>
+                </div>
+                <div class="go-login">
+                    <span>If you already a member! <a href="./loginform.html">Login</a></span>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

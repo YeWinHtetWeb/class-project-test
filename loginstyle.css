@@ -1,0 +1,133 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url('./img/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 1000px;
+    height: 500px;
+    /* background-color: #09203f; */
+    background-color: rgba(255, 251, 251, 0.1);
+    border-radius: 10px;
+    margin: 200px auto;
+    padding: 0 30px 0 0;
+    box-shadow: -3px 2px 12px #780611;
+    display: flex;
+}
+
+.title {
+    width: 60%;
+    background-image: url('./img/bg2.jpg');
+    border-radius: 10px 0 0 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    color: #EE5A24;
+    font-size: 45px;
+    text-shadow: 3px 8px 5px black;
+    letter-spacing: 2px;
+    margin-top: 60%;
+    margin-left: 20px;
+}
+
+.content {
+    margin-left: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 3px 8px 2px black;
+    margin-bottom: 70px;
+}
+
+.form-group {
+    width: 350px;
+    height: 40px;
+    /* background-color: red; */
+    margin-bottom: 20px;
+}
+
+.icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    /* background-color: tomato; */
+}
+
+i {
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+input,
+.btn a {
+    width: 280px;
+    height: 100%;
+    padding-left: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+.btn a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    line-height: 40px;
+    margin: 30px 50px;
+    background-color: #EE5A24;
+    letter-spacing: 2px;
+}
+
+.forgot-link {
+    margin-left: 60%;
+    margin-bottom: 50px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #B85F00;
+    font-weight: bold;
+    text-shadow: 0px 2px 1px black;
+}
+
+b {
+    display: block;
+    margin-top: 35px;
+    color: #fff;
+}
+
+.google {
+    color: #B3ABA4;
+    text-shadow: 2px 5px 3px black;
+}
+
+.loginwith {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.member {
+    text-align: right;
+    display: block;
+    margin-top: 30px;
+    color: #fff;
+    text-shadow: 3px 7px 10px black;
+}
+
+.signup {
+    font-weight: bold;
+    text-decoration: none;
+    color: #EE5A24;
+    text-shadow: 0px 2px 1px black;
+}
